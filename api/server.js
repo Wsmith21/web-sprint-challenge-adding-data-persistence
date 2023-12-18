@@ -1,7 +1,7 @@
 const express = require('express');
-const tasksRouter = require('/Users/walynsmith/web-sprint-challenge-adding-data-persistence/api/task/router.js'); // Import your tasks router
-const resourcesRouter = require('/Users/walynsmith/web-sprint-challenge-adding-data-persistence/api/resource/router.js'); // Import your resources router
-const projectsRouter = require('/Users/walynsmith/web-sprint-challenge-adding-data-persistence/api/project/router.js')
+const tasksRouter = require('api/task/router.js'); // Import your tasks router
+const resourcesRouter = require('api/resource/router.js'); // Import your resources router
+const projectsRouter = require('api/project/router.js')
 const server = express();
 server.use(express.json());
 
