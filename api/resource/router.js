@@ -1,5 +1,5 @@
 const express = require('express');
-const Resource = require('api/resource/model.js');
+const Resource = require('./resource/model');
 
 const router = express.Router();
 
