@@ -1,5 +1,5 @@
 const express = require('express');
-const Task = require('./task/model'); // Import your Task model here
+const Task = require('api/task/model'); // Import your Task model here
 
 const router = express.Router();
 
