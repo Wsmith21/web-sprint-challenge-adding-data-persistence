@@ -1,7 +1,7 @@
 const express = require('express');
-const tasksRouter = require('api/task/router'); // Import your tasks router
-const resourcesRouter = require('api/resource/router'); // Import your resources router
-const projectsRouter = require('api/project/router')
+const tasksRouter = require('./task/router'); // Import your tasks router
+const resourcesRouter = require('./resource/router'); // Import your resources router
+const projectsRouter = require('./project/router')
 const server = express();
 server.use(express.json());
 
